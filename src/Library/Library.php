@@ -4,9 +4,9 @@ namespace Library;
 
 class Library
 {
-	private static $version = "0.0.1";
+	private static $author = "raultm";
 	
-	public static function getLibraryVersion(){
-		return Library::$version;
+	public static function getLibraryAuthor(){
+		return Library::$author;
 	}
 }

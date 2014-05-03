@@ -4,9 +4,9 @@ namespace Library;
 
 class LibraryTest extends \PHPUnit_Framework_TestCase
 {
-    public function testCheckLibraryVersion()
+    public function testCheckLibraryAuthor()
     {
-    	$this->assertEquals('0.0.1', Library::getLibraryVersion());
+    	$this->assertEquals('raultm', Library::getLibraryAuthor());
     }
  
 }
