@@ -1,3 +1,6 @@
 {
     "name": "raultm/lib"
+    "autoload": {
+	    "psr-0": {"Library": "src/"}
+	  }
 }
